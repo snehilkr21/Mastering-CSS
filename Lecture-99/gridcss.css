@@ -16,13 +16,13 @@ body{
     row-gap: 2rem;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
-    align-items: center;
-    justify-items: center;
+    
+    justify-items: stretch;
 }
 .item{
     background-color: bisque;
     border: 2px solid black;
-    width: 100px;
-    height: 100px;
+    /* width: 100px;
+    height: 100px; */
     
 }
